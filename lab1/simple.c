@@ -27,7 +27,7 @@ static void simple_exit(void) {
     /////////////////////>
     //printk(KERN_INFO "");  印出移除時的jiffies，使用％lu來表示，格式為"exit_jiffies: XXXXXXXXXXX"，記得換行
 	printk(KERN_INFO "Removing Module\n");
-	printk(KERN_INFO "init_jiffies: %lu\n",jiffies);
+	printk(KERN_INFO "exit_jiffies: %lu\n",jiffies);
 }
 
 //這兩個巨集指令是註冊模組的入口與出口
