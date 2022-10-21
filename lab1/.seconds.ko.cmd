@@ -1,0 +1,1 @@
+cmd_/home/vagrant/NCCU_1111_OS_Lab1/src/seconds.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/vagrant/NCCU_1111_OS_Lab1/src/seconds.ko /home/vagrant/NCCU_1111_OS_Lab1/src/seconds.o /home/vagrant/NCCU_1111_OS_Lab1/src/seconds.mod.o ;  true
